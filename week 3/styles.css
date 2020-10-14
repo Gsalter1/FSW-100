@@ -1,0 +1,36 @@
+.headline-green{
+
+    color:darkgreen;
+}
+
+h1, h2{
+
+    font-family:Georgia;
+    text-align: center;
+}
+
+a{ 
+    text-decoration:none;
+
+}
+
+#p{
+
+    text-transform: uppercase;
+}
+
+a:hover{
+
+    text-decoration:underline;
+}
+
+body > img{
+
+    float: left;
+
+}
+
+img{
+
+    margin: 10px;
+}
