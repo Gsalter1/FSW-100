@@ -1,0 +1,97 @@
+/*global settings*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*main*/
+
+main {
+    position: relative;
+    margin-left: 250px;
+}
+
+/*navigation links*/
+
+.nav{
+    position: fixed;
+    width: 748px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.home{
+    position: relative;
+    left: 275px;
+    color: blue;
+    font-weight: bolder;
+}
+.about{
+    position: relative;
+    left: 300px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.contact{
+    position: relative;
+    left: 325px;
+    color: blue;
+    font-weight: bolder;
+}
+
+/*Section*/
+
+section {
+    position: absolute;
+    margin: auto;
+    max-width: 750px;
+}
+
+/*articles*/
+
+#article1{
+    position: relative;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+#article2{
+    position: relative;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+
+#article3{
+    position: relative;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 20px;
+   
+}
+
+/*h,p,img tags*/
+
+h2, h5 {
+    margin: 5px;
+    padding: 0px;
+}
+
+h5,p{
+    color: grey;
+}
+
+img{
+    float: left;
+    margin:20px;
+}
