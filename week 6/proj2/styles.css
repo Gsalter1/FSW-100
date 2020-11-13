@@ -1,0 +1,106 @@
+
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  background-color: #333;
+  }
+
+
+nav ul li {    
+
+  list-style: none;
+
+}
+
+
+nav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  padding: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+.btn {
+  font-size: 30px;
+  background-color: #e286b2;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.btn:hover {
+  background-color:pink;
+}
+
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  
+
+
+  text-align: center;
+  align-content: center;
+  background-color: lightblue;
+ 
+}
+
+.footer .p1 .p2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: darkslateblue;
+  color: white;
+  width:100%;
+}
+
+
+
+@media screen and (max-width:600px){
+  .hero-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px){
+main{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width:600px){
+  .box1 .box2 .box3{
+  justify-content: center;
+  align-content: center;
+    
+  }
+}
+
